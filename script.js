@@ -13,11 +13,11 @@ inc.addEventListener("click", () => {
 })
 
 dec.addEventListener("click", () => {
-    num--
+    num--;
     valor.innerHTML = num
 })
 
 reset.addEventListener("click", () => {
-    num = 0
+    num = 0;
     valor.innerHTML = num
 })
